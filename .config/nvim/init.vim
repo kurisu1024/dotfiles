@@ -21,6 +21,7 @@ Plug 'akinsho/bufferline.nvim'
 Plug 'folke/which-key.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Syntax and Comments
 Plug 'sheerun/vim-polyglot'
@@ -61,7 +62,7 @@ autocmd VimEnter * NERDTree
 
 " === Airline ===
 let g:airline_powerline_fonts = 1
-let g:airline_theme='gruvbox'
+let g:airline_theme='dracula'
 
 " === Colorscheme ===
-colorscheme desert
+colorscheme dracula
